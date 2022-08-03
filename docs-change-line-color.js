@@ -5,8 +5,8 @@
  * foregroundColor: 変更したい文字色(RGB)
  */
 function myFunction() {
-  let startWord = "> ";
-  let foregroundColor = "#b7b7b7";
+  const startWord = "> ";
+  const foregroundColor = "#b7b7b7";
   DocumentApp.getActiveDocument()
     .getBody()                                                 // Body
     .getParagraphs()                                           // Array<Paragraph>
